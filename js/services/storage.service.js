@@ -5,7 +5,7 @@ export class StorageService {
     static getSettings() {
         return {
             spreadsheetId: localStorage.getItem(GSHEET_ID_KEY) || '1BayDM5Y9pMS9uVzaldHUTo7CLulD_etfZufXR6QrigY',
-            gasWebappUrl: localStorage.getItem(GAS_URL_KEY) || 'https://script.google.com/macros/s/AKfycbwVJJvvAnX6768WFY9-QY6vbDeGQnJM2rFFZEEdGr8zVJvpZFM3LBqSBWYNIVPnwp2O/exec'
+            gasWebappUrl: localStorage.getItem(GAS_URL_KEY) || 'https://script.google.com/macros/s/AKfycbxo1IXZiYMZT2ZK3UiU2HO5TDBuWyFoQFBjFqoW-e4VM_YwO2v4Nvsh1K-hM8SzvRWDdA/exec'
         };
     }
 
